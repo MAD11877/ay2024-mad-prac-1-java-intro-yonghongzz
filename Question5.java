@@ -26,11 +26,11 @@ public class Question5
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+
     int num = in.nextInt();
     int[] arr = new int[num];
     for(int i = 0; i < num; i++){
-      System.out.print("Enter a number: ");
+
       int num2 = in.nextInt();
       arr[i] = num2;
     }
